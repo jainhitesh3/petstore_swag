@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.test.UserTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-24T16:12:50" hostname="DESKTOP-30QGC8B" time="7.998">
+  <properties/>
+  <testcase name="test03UpdateUser" classname="api.test.UserTests" time="7.998"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1792347110,
+    "username": "norman.pacocha",
+    "firstName": "Lorenzo",
+    "lastName": "Mayert",
+    "email": "jorge.miller@example.com",
+    "password": "aqab7q3i",
+    "phone": "792.670.2239",
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+Date: Thu, 24 Aug 2023 16:12:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1792347110"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/user/norman.pacocha
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=norman.pacocha
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1792347110,
+    "username": "norman.pacocha",
+    "firstName": "FirstName",
+    "lastName": "LastName",
+    "email": "update@mail.com",
+    "password": "aqab7q3i",
+    "phone": "792.670.2239",
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+Date: Thu, 24 Aug 2023 16:12:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1792347110"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
